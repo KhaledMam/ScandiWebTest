@@ -1,0 +1,20 @@
+{
+    "name": "scanditask/global",
+    "authors": [
+        {
+            "name": "Khaled Mam",
+            "email": "khaledmamsam@gmail.com"
+        }
+    ],
+    "require": {
+    "php": "^7.4"
+    },
+    "autoload": {
+    "psr-4": {
+        "Models\\": "src/Models/",
+    	"Controllers\\": "src/Controllers/",
+    	"Interfaces\\": "src/Interfaces/"
+    }
+}
+
+}
